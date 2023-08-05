@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign-up Form</title>
+</head>
+<body>
+    <div class='leftBanner'>
+        <div class="subBanner">
+            <img class="bannerImage" src='img/odin-lined.png'></img>
+            <div class="bannerText">ODIN</div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="header"><p><b>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.<br>Sign up <em>now</em> to get started.<br><br>You <em>know</em> you want to.</b></p>
+        </div>
+        <form action="#" method="get">
+            <div class="formVisualContainer">
+                <div class="topText">Let's do this!</div>
+
+                <div class="formLine1">
+                    <div class="firstnameContainer">
+                        <label for="first-name">*FIRST NAME</label>
+                        <input required minlength="2" maxlength="60" type="text" name="first-name" id="first-name">
+                    </div>
+                    <div class="lastnameContainer">
+                        <label for="last-name">*LAST NAME</label>
+                        <input required minlength="1" maxlength="60" type="text" name="last-name" id="last-name">
+                    </div>
+                </div>
+
+                <div class="formLine2">
+                    <div class="emailContainer">
+                        <label for="email">*EMAIL</label>
+                        <input required type="email" name="email" id="email">
+                    </div>
+                    <div class="telContainer">
+                        <label for="tel">PHONE NUMBER</label>
+                        <input required minlength="10" maxlength="11" type="tel" name="tel" id="tel">
+                    </div>
+                </div>
+
+                <div class="formLine3">
+                    <div class="passwordContainer">
+                        <label for="password">*PASSWORD</label>
+                        <input required minlength="5" maxlength="60" type="password" name="password" id="password">
+                    </div>
+                    <div class="confirmedPasswordContainer">
+                        <label for="confirmedPassword">*CONFIRM PASSWORD</label>
+                        <input required minlength="5" maxlength="60" type="password" name="confirmedPassword" id="confirmedPassword">
+                    </div>
+                </div>
+            </div>
+            <button type="submit" class="buttonSubmit">Create Account</button>
+        </form>
+        <div class="bottomText">Already have an account? <a href=''>Log in</a></div>
+    </div>
+    <script>
+    </script>
+</body>
+</html>
